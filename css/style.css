@@ -258,11 +258,8 @@ section {
  }
 
  .about .row .image{
-    flex: 1 1 45rem;
- }
-
- .about .row .image img{
-    width: 100%;
+    flex: 1 1 30rem;
+    width: 5%;
  }
 
  .about .row .content{
@@ -295,7 +292,8 @@ section {
  }
 
  .menu .box-container .box img {
-    height: 10rem;
+    height: 20rem;
+    border-radius: 20%;
  }
 
  .menu .box-container .box h3 {
@@ -357,6 +355,7 @@ section {
 
  .products .box-container .box .image img{
     height: 25rem;
+    border-radius: 20%;
  }
 
  .products .box-container .box .content h3{
@@ -403,9 +402,13 @@ section {
     padding: 2rem 0;
  }
 
+ .review .box-container .box img {
+    height: 20%;
+ }
+
  .review .box-container .box .user {
-    height: 7rem;
-    width: 7rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
     object-fit: cover;
  }
